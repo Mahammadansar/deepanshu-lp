@@ -40,7 +40,7 @@
         <!-- page preloader close -->
 
 
-      <header class="transparent header-light header-float">
+        <header class="transparent header-light header-float">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -66,7 +66,7 @@
                                             <li><a class="menu-item" href="#section-overview">Overview</a></li>
                                             <li><a class="menu-item" href="#section-projects">Projects</a>
                                             </li>
-                                             <li><a class="menu-item" href="#section-testimonials">Testimonials</a></li>
+                                            <li><a class="menu-item" href="#section-testimonials">Testimonials</a></li>
                                             <li><a class="menu-item" href="#section-contact">Contact</a></li>
                                             <li><a class="menu-item" href="#section-faq">Faq</a></li>
                                         </ul>
@@ -144,7 +144,9 @@
                         <source src="video-new.mp4" type="video/mp4">
                         <source src="your-video-file.webm" type="video/webm">
                         <!-- Fallback background image if video doesn't load -->
-                        <div class="video-fallback" style="background-image: url(https://c4.wallpaperflare.com/wallpaper/460/214/494/city-dubai-cityscape-blue-wallpaper-preview.jpg);"></div>
+                        <div class="video-fallback"
+                            style="background-image: url(https://c4.wallpaperflare.com/wallpaper/460/214/494/city-dubai-cityscape-blue-wallpaper-preview.jpg);">
+                        </div>
                     </video>
                     <div class="video-overlay op-4"></div>
                 </div>
@@ -174,273 +176,317 @@
                 </div>
         </section>
 
-        <section class="bg-dark section-dark text-light" id="section-projects">
+       <section class="relative bg-dark section-dark text-light">
 
             <div class="container relative z-2">
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-12 text-center">
+                        <!-- <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Elevated Comfort</div> -->
                         <h2 class="wow fadeInUp" data-wow-delay=".2s">Exclusive Properties of Deepanshu</h2>
                     </div>
                 </div>
-            </div>
 
-            <div class="container-fluid">
-                <div class="row">
+                <!-- Search and Filter Section -->
+                <div class="row g-4 mb-4">
                     <div class="col-lg-12">
-                        <div class="owl-custom-nav menu-float" data-target="#room-carousel">
-                            <a class="btn-next"></a>
-                            <a class="btn-prev"></a>
-
-                            <div id="room-carousel" class="owl-2-cols-center owl-carousel owl-theme">
-                                <!-- room begin -->
-                                <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">Featured</span>
-                                            <img src="EMAAR Golf Meadow/EGMHP.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Golf-meadow.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Golf Meadow – Emaar South</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Emaar South, Dubai South (DWC), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>3-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Selling Peice 2,996,888
-                                                    AED</span>
-                                            </div>
-                                             <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are subject to change based on inventory availability.</small>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                        <div class="search-filter-container p-4 rounded"
+                            style="background-color: rgba(255,255,255,0.1);">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <input type="text" id="searchInput" class="form-control"
+                                        placeholder="Search properties...">
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                                <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">Featured</span>
-                                            <img src="EMAAR Golf Verge/EGVHP.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Golf-verge.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Golf Verge – Emaar South</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Emaar South, Dubai South (DWC), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>3-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Selling Price 3,273,888
-                                                    AED</span>
-                                            </div>
-                                             <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are subject to change based on inventory availability.</small>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                                <div class="col-md-2">
+                                    <select id="locationFilter" class="form-control">
+                                        <option value="">All Locations</option>
+                                        <option value="Dubai South">Dubai South</option>
+                                        <option value="Emaar South">Emaar South</option>
+                                    </select>
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                               <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">New Launch</span>
-                                            <img src="Hayat Residences/HYHP.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Hayat-residences.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Hayat Residences – Dubai South</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South (Dubai World Central), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>3, 4, and 5-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Townhouse</span>
-                                                <span class="badge bg-light text-dark">Starting from 3,400,000
-                                                    AED</span>
-                                            </div>
-                                             <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are subject to change based on inventory availability.</small>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                                <div class="col-md-2">
+                                    <select id="bedroomFilter" class="form-control">
+                                        <option value="">All Bedrooms</option>
+                                        <option value="Studio">Studio</option>
+                                        <option value="1">1 Bedroom</option>
+                                        <option value="2">2 Bedrooms</option>
+                                        <option value="3">3 Bedrooms</option>
+                                        <option value="4">3+ Bedrooms</option>
+                                    </select>
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                                <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">New Launch</span>
-                                            <img src="Samana Hills South/SHSHP.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Samana-Hills.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Samana Hills South</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South (Dubai Industrial City), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>Studio, 1 & 2-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Starting from 570,000
-                                                    AED</span>
-                                            </div>
-                                             <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are subject to change based on inventory availability.</small>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                                <div class="col-md-2">
+                                    <select id="priceFilter" class="form-control">
+                                        <option value="">All Prices</option>
+                                        <option value="under-500000">Under 500,000 AED</option>
+                                        <option value="500000-1000000">500,000 – 1,000,000 AED</option>
+                                        <option value="1000000-2000000">1,000,000 – 2,000,000 AED</option>
+                                        <option value="2000000-3500000">2,000,000 – 3,500,000 AED</option>
+                                        <option value="above-3500000">Above 3,500,000 AED</option>
+                                    </select>
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                               <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">Off-Plan</span>
-                                            <img src="Azizi Venice/AZVHP.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Azizi-Venice.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Azizi Venice</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South (Dubai World Central), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>Studios, 1, 2 & 3-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Starting from 650,000
-                                                    AED</span>
-                                            </div>
-                                             <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are subject to change based on inventory availability.</small>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                                <div class="col-md-2">
+                                    <button id="clearFilters" class="btn1 btn-outline-light">Clear Filters</button>
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                               <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">New Launch</span>
-                                            <img src="The Eighty Three/83HP.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="The-eighty.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">The Eighty Three</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South, Dubai</span>
-                                                <!-- <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>3-Bedroom</span> -->
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Starting from 464,000
-                                                    AED</span>
-                                            </div>
-                                             <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are subject to change based on inventory availability.</small>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">New Launch</span>
-                                            <img src="South Square/SSHP.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="south-sqaure.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">South Square</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South, Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>1–3 Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Residential</span>
-                                                <span class="badge bg-light text-dark">Starting from 1,100,000 
-                                                    AED</span>
-                                            </div>
-                                             <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are subject to change based on inventory availability.</small>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
-                                </div>
-                                <!-- room end -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="row g-4" id="propertiesContainer">
+                    <div class="col-md-6 property-card" data-location="Emaar South" data-bedrooms="3"
+                        data-price="2996888" data-name="Golf Meadow – Emaar South">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span>
+                                <img src="EMAAR Golf Meadow/EGMHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Golf-meadow.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-10 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Golf Meadow – Emaar South</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Emaar South, Dubai South (DWC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>3-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Selling Peice 2,996,888
+                                        AED</span>
+                                </div>
+                               <small class="d-block mt-4" style="font-size: 0.85em; color: #e0cf1b;">*Prices are subject to change based on inventory availability*</small>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-card" data-location="Emaar South" data-bedrooms="3" data-price="3273888"
+                        data-name="Golf Verge – Emaar South">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span>
+                                <img src="EMAAR Golf Verge/EGVHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Golf-verge.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-10 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Golf Verge – Emaar South</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Emaar South, Dubai South (DWC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>3-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Selling Price 3,273,888
+                                        AED</span>
+                                </div>
+                               <small class="d-block mt-4" style="font-size: 0.85em; color: #e0cf1b;">*Prices are subject to change based on inventory availability*</small>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-card" data-location="Dubai South" data-bedrooms="4"
+                        data-price="3400000" data-name="Hayat Residences – Dubai South">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">New Launch</span>
+                                <img src="Hayat Residences/HYHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Hayat-residences.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-10 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Hayat Residences – Dubai South</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Dubai South (Dubai World Central), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>3, 4, and
+                                        5-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Townhouse</span>
+                                    <span class="badge bg-light text-dark">Starting from 3,400,000
+                                        AED</span>
+                                </div>
+                               <small class="d-block mt-4" style="font-size: 0.85em; color: #e0cf1b;">*Prices are subject to change based on inventory availability*</small>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-card" data-location="Dubai South" data-bedrooms="Studio"
+                        data-price="570000" data-name="Samana Hills South">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">New Launch</span>
+                                <img src="Samana Hills South/SHSHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Samana-Hills.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-10 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Samana Hills South</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Dubai South (Dubai Industrial City), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studio, 1 &
+                                        2-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Starting from 570,000
+                                        AED</span>
+                                </div>
+                               <small class="d-block mt-4" style="font-size: 0.85em; color: #e0cf1b;">*Prices are subject to change based on inventory availability*</small>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-card" data-location="Dubai South  " data-bedrooms="Studio"
+                        data-price="650000" data-name="Azizi Venice">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Off-Plan</span>
+                                <img src="Azizi Venice/AZVHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Azizi-Venice.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-10 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Azizi Venice</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Dubai South (Dubai World Central), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studios, 1, 2 &
+                                        3-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Starting from 650,000
+                                        AED</span>
+                                </div>
+                               <small class="d-block mt-4" style="font-size: 0.85em; color: #e0cf1b;">*Prices are subject to change based on inventory availability*</small>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-card" data-location="Dubai South" data-bedrooms=""
+                        data-price="464000" data-name="The Eighty Three">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">New Launch</span>
+                                <img src="The Eighty Three/83HP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="The-eighty.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-10 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">The Eighty Three</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Dubai South, Dubai</span>
+                                    <!-- <span class="badge bg-dark"> <i
+                                                        class="fa-solid fa-bed me-1"></i>3-Bedroom</span> -->
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Starting from 464,000
+                                        AED</span>
+                                </div>
+                               <small class="d-block mt-4" style="font-size: 0.85em; color: #e0cf1b;">*Prices are subject to change based on inventory availability*</small>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 property-card" data-location="Dubai South" data-bedrooms="1"
+                        data-price="1100000" data-name="South Square">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">New Launch</span>
+                                <img src="South Square/SSHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="south-sqaure.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-10 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">South Square</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Dubai South, Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>1–3 Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Residential</span>
+                                    <span class="badge bg-light text-dark">Starting from 1,100,000
+                                        AED</span>
+                                </div>
+                               <small class="d-block mt-4" style="font-size: 0.85em; color: #e0cf1b;">*Prices are subject to change based on inventory availability*</small>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Show More Button -->
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                        <button id="showMoreBtn" class="btn-main btn-line fx-slide">
+                            <span>Show More Properties</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
         <section id="section-overview">
@@ -707,7 +753,7 @@
         </div>
     </section>
 
-   <footer class="text-light pt-5">
+    <footer class="text-light pt-5">
         <div class="container">
 
             <!-- Extended Footer Links Section -->
@@ -899,24 +945,23 @@
                     Copyright 2025 - Indus Real Estate LLC
                 </div>
                 <div class="col-md-6 text-end small mb-3">
-                  <div class="social-icons mb-sm-30 text-center">
-                            <a href="https://www.facebook.com/profile.php?id=100083310042155"><i
-                                    class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/company/indusrealestate"><i
-                                    class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/indusREdubai/"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/@IndusRealEstateLLC"><i
-                                    class="fa-brands fa-youtube"></i></a>
-                            <a
-                                href="https://api.whatsapp.com/send?phone=97180046387&text=Hi%2C%20I%20came%20across%20your%20website%20(dubai-south-lp)%20and%20I%27m%20interested%20in%20learning%20more%20about%20your%20property%20listings%20and%20available%20options.%20Kindly%20connect%20me%20with%20one%20of%20your%20property%20specialists.%20Thank%20you!"><i
-                                    class="fa-brands fa-whatsapp"></i></a>
-                        </div>
+                    <div class="social-icons mb-sm-30 text-center">
+                        <a href="https://www.facebook.com/profile.php?id=100083310042155"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/indusrealestate"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/indusREdubai/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@IndusRealEstateLLC"><i class="fa-brands fa-youtube"></i></a>
+                        <a
+                            href="https://api.whatsapp.com/send?phone=97180046387&text=Hi%2C%20I%20came%20across%20your%20website%20(dubai-south-lp)%20and%20I%27m%20interested%20in%20learning%20more%20about%20your%20property%20listings%20and%20available%20options.%20Kindly%20connect%20me%20with%20one%20of%20your%20property%20specialists.%20Thank%20you!"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
                 </div>
             </div>
 
         </div>
     </footer>
-    
+
     <div id="whatsappModal" class="modal5">
         <div class="modal5-content">
             <span class="close" id="whatsappClose">&times;</span>
@@ -1152,6 +1197,15 @@
             cursor: pointer;
         }
 
+        .btn1 {
+            padding: 3px 25px 3px 25px;
+            color: #ffffff;
+            background-color: #0a0c0d;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            float: right;
+        }
 
         /* Video Styles */
         .video-container {
@@ -1198,6 +1252,7 @@
             position: relative;
             z-index: 3;
         }
+
         .iti {
             width: 100%;
             /* Ensures full width */
@@ -1301,6 +1356,125 @@
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-2.js"></script>
 
+    <!-- Property Search and Filter Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('searchInput');
+            const locationFilter = document.getElementById('locationFilter');
+            const bedroomFilter = document.getElementById('bedroomFilter');
+            const priceFilter = document.getElementById('priceFilter');
+            const clearFiltersBtn = document.getElementById('clearFilters');
+            const showMoreBtn = document.getElementById('showMoreBtn');
+            const propertiesContainer = document.getElementById('propertiesContainer');
+            const propertyItems = document.querySelectorAll('.property-card');
+
+            let visibleCount = 6;
+            let filteredItems = Array.from(propertyItems);
+
+            // Initialize - hide properties beyond first 6
+            function initializeProperties() {
+                propertyItems.forEach((item, index) => {
+                    if (index >= 6) {
+                        item.style.display = 'none';
+                    }
+                });
+                updateShowMoreButton();
+            }
+
+            // Filter properties based on search and filter criteria
+            function filterProperties() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const selectedLocation = locationFilter.value;
+                const selectedBedrooms = bedroomFilter.value;
+                const selectedPriceRange = priceFilter.value;
+
+                filteredItems = Array.from(propertyItems).filter(item => {
+                    const name = item.getAttribute('data-name').toLowerCase();
+                    const location = item.getAttribute('data-location');
+                    const bedrooms = item.getAttribute('data-bedrooms');
+                    const price = parseInt(item.getAttribute('data-price'));
+
+                    // Search filter
+                    const matchesSearch = name.includes(searchTerm);
+
+                    // Location filter
+                    const matchesLocation = !selectedLocation || location === selectedLocation;
+
+                    // Bedroom filter
+                    const matchesBedrooms = !selectedBedrooms || bedrooms === selectedBedrooms;
+
+                    // Price filter
+                    let matchesPrice = true;
+                    if (selectedPriceRange) {
+                        const [minPrice, maxPrice] = selectedPriceRange.split('-').map(Number);
+                        matchesPrice = price >= minPrice && price <= maxPrice;
+                    }
+
+                    return matchesSearch && matchesLocation && matchesBedrooms && matchesPrice;
+                });
+
+                // Reset visible count and show filtered results
+                visibleCount = 6;
+                showFilteredProperties();
+            }
+
+            // Show filtered properties
+            function showFilteredProperties() {
+                // Hide all properties first
+                propertyItems.forEach(item => {
+                    item.style.display = 'none';
+                });
+
+                // Show filtered properties up to visible count
+                filteredItems.forEach((item, index) => {
+                    if (index < visibleCount) {
+                        item.style.display = 'block';
+                    }
+                });
+
+                updateShowMoreButton();
+            }
+
+            // Update show more button text and visibility
+            function updateShowMoreButton() {
+                if (filteredItems.length <= visibleCount) {
+                    showMoreBtn.style.display = 'none';
+                } else {
+                    showMoreBtn.style.display = 'inline-block';
+                    showMoreBtn.innerHTML = `<span>Show More Properties</span>`;
+                }
+            }
+
+            // Show more properties
+            function showMoreProperties() {
+                visibleCount += 6;
+                showFilteredProperties();
+            }
+
+            // Clear all filters
+            function clearAllFilters() {
+                searchInput.value = '';
+                locationFilter.value = '';
+                bedroomFilter.value = '';
+                priceFilter.value = '';
+                filteredItems = Array.from(propertyItems);
+                visibleCount = 6;
+                showFilteredProperties();
+            }
+
+            // Event listeners
+            searchInput.addEventListener('input', filterProperties);
+            locationFilter.addEventListener('change', filterProperties);
+            bedroomFilter.addEventListener('change', filterProperties);
+            priceFilter.addEventListener('change', filterProperties);
+            clearFiltersBtn.addEventListener('click', clearAllFilters);
+            showMoreBtn.addEventListener('click', showMoreProperties);
+
+            // Initialize on page load
+            initializeProperties();
+        });
+    </script>
+
     <!-- datepicker begin -->
     <script>
         $(function () {
@@ -1315,7 +1489,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
-     <script>
+    <script>
         function initializeIntlTelInput(phoneId) {
             var input = document.querySelector("#" + phoneId);
             var iti = window.intlTelInput(input, {
